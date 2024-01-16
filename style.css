@@ -1,0 +1,68 @@
+body {
+    background-color: #182CD4;
+    font-family: 'Inconsolata', monospace;
+    color: #C4FA6F;
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.productList {
+width: 300px;
+height: 400px;
+overflow: scroll;
+flex: 0 0 calc(25% - 20px); /* 25% width for each item with some margin */
+margin: 10px;
+padding: 10px;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid yellow;
+}
+
+strong {
+    color: red;
+}
+
+#result {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+
+button {
+margin: 5px;
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
